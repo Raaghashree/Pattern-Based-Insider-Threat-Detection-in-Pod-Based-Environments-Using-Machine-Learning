@@ -1,0 +1,101 @@
+timestamp,user_id,alert_type,severity,description,source_ip,username,resource,event_details
+2025-05-07 05:35:00.123000+00:00,U0098,suspicious_login,high,Multiple failed login attempts followed by successful login,192.168.1.123,admin_user,,
+2025-05-07 05:30:00.456000+00:00,U0076,privilege_escalation,critical,Unexpected privilege escalation detected,10.0.0.45,john_doe,,
+2025-05-07 05:25:12.789000+00:00,U0034,unusual_access,medium,Access to sensitive resources outside normal hours,172.16.5.210,data_analyst,,
+2025-05-07 05:07:04.600404+00:00,,Authentication,Medium,After-hours login for user U0089,172.23.200.145,U0089,Login System,Login at 2025-05-07 05:07:04
+2025-05-07 05:07:04.600404+00:00,,Authentication,Medium,After-hours login for user U0089,172.23.200.145,U0089,Login System,Login at 2025-05-07 05:07:04
+2025-05-07 05:07:04.600404+00:00,,Authentication,Medium,After-hours login for user U0089,172.23.200.145,U0089,Login System,Login at 2025-05-07 05:07:04
+2025-05-07 05:07:04.600404+00:00,,Authentication,Medium,After-hours login for user U0089,172.23.200.145,U0089,Login System,Login at 2025-05-07 05:07:04
+2025-05-07 05:07:04.600404+00:00,,Authentication,Medium,After-hours login for user U0089,172.23.200.145,U0089,Login System,Login at 2025-05-07 05:07:04
+2025-05-07 05:07:04.600404+00:00,,Authentication,Medium,After-hours login for user U0089,172.23.200.145,U0089,Login System,Login at 2025-05-07 05:07:04
+2025-05-07 05:07:04.600404+00:00,,Authentication,Medium,After-hours login for user U0089,172.23.200.145,U0089,Login System,Login at 2025-05-07 05:07:04
+2025-05-07 05:07:04.600404+00:00,,Authentication,Medium,After-hours login for user U0089,172.23.200.145,U0089,Login System,Login at 2025-05-07 05:07:04
+2025-05-07 05:07:04.600404+00:00,,Authentication,Medium,After-hours login for user U0089,172.23.200.145,U0089,Login System,Login at 2025-05-07 05:07:04
+2025-05-07 05:07:04.600404+00:00,,Authentication,Medium,After-hours login for user U0089,172.23.200.145,U0089,Login System,Login at 2025-05-07 05:07:04
+2025-05-07 05:00:04.595198+00:00,,Authentication,Medium,After-hours login for user U0018,10.102.218.252,U0018,Login System,Login at 2025-05-07 05:00:04
+2025-05-07 05:00:04.595198+00:00,,Authentication,Medium,After-hours login for user U0018,10.102.218.252,U0018,Login System,Login at 2025-05-07 05:00:04
+2025-05-07 05:00:04.595198+00:00,,Authentication,Medium,After-hours login for user U0018,10.102.218.252,U0018,Login System,Login at 2025-05-07 05:00:04
+2025-05-07 05:00:04.595198+00:00,,Authentication,Medium,After-hours login for user U0018,10.102.218.252,U0018,Login System,Login at 2025-05-07 05:00:04
+2025-05-07 05:00:04.595198+00:00,,Authentication,Medium,After-hours login for user U0018,10.102.218.252,U0018,Login System,Login at 2025-05-07 05:00:04
+2025-05-07 05:00:04.595198+00:00,,Authentication,Medium,After-hours login for user U0018,10.102.218.252,U0018,Login System,Login at 2025-05-07 05:00:04
+2025-05-07 05:00:04.595198+00:00,,Authentication,Medium,After-hours login for user U0018,10.102.218.252,U0018,Login System,Login at 2025-05-07 05:00:04
+2025-05-07 05:00:04.595198+00:00,,Authentication,Medium,After-hours login for user U0018,10.102.218.252,U0018,Login System,Login at 2025-05-07 05:00:04
+2025-05-07 05:00:04.595198+00:00,,Authentication,Medium,After-hours login for user U0018,10.102.218.252,U0018,Login System,Login at 2025-05-07 05:00:04
+2025-05-07 05:00:04.595198+00:00,,Authentication,Medium,After-hours login for user U0018,10.102.218.252,U0018,Login System,Login at 2025-05-07 05:00:04
+2025-05-07 04:59:44+00:00,,Container,Medium,Suspicious container image used: nginx:latest,,unknown,Container image,Action: unknown
+2025-05-07 04:59:44+00:00,,Container,Medium,Suspicious container image used: nginx:latest,N/A,unknown,Container image,Action: unknown
+2025-05-07 04:59:44+00:00,,Container,Medium,Suspicious container image used: nginx:latest,,unknown,Container image,Action: unknown
+2025-05-07 04:59:44+00:00,,Container,Medium,Suspicious container image used: nginx:latest,,unknown,Container image,Action: unknown
+2025-05-07 04:59:44+00:00,,Container,Medium,Suspicious container image used: nginx:latest,,unknown,Container image,Action: unknown
+2025-05-07 04:59:44+00:00,,Container,Medium,Suspicious container image used: nginx:latest,,unknown,Container image,Action: unknown
+2025-05-07 04:59:44+00:00,,Container,Medium,Suspicious container image used: nginx:latest,,unknown,Container image,Action: unknown
+2025-05-07 04:59:44+00:00,,Container,Medium,Suspicious container image used: nginx:latest,,unknown,Container image,Action: unknown
+2025-05-07 04:59:44+00:00,,Container,Medium,Suspicious container image used: nginx:latest,,unknown,Container image,Action: unknown
+2025-05-07 04:59:44+00:00,,Container,Medium,Suspicious container image used: nginx:latest,,unknown,Container image,Action: unknown
+2025-05-07 04:46:04.593082+00:00,,Authentication,Medium,After-hours login for user U0005,10.144.165.136,U0005,Login System,Login at 2025-05-07 04:46:04
+2025-05-07 04:46:04.593082+00:00,,Authentication,Medium,After-hours login for user U0005,10.144.165.136,U0005,Login System,Login at 2025-05-07 04:46:04
+2025-05-07 04:46:04.593082+00:00,,Authentication,Medium,After-hours login for user U0005,10.144.165.136,U0005,Login System,Login at 2025-05-07 04:46:04
+2025-05-07 04:46:04.593082+00:00,,Authentication,Medium,After-hours login for user U0005,10.144.165.136,U0005,Login System,Login at 2025-05-07 04:46:04
+2025-05-07 04:46:04.593082+00:00,,Authentication,Medium,After-hours login for user U0005,10.144.165.136,U0005,Login System,Login at 2025-05-07 04:46:04
+2025-05-07 04:46:04.593082+00:00,,Authentication,Medium,After-hours login for user U0005,10.144.165.136,U0005,Login System,Login at 2025-05-07 04:46:04
+2025-05-07 04:46:04.593082+00:00,,Authentication,Medium,After-hours login for user U0005,10.144.165.136,U0005,Login System,Login at 2025-05-07 04:46:04
+2025-05-07 04:46:04.593082+00:00,,Authentication,Medium,After-hours login for user U0005,10.144.165.136,U0005,Login System,Login at 2025-05-07 04:46:04
+2025-05-07 04:46:04.593082+00:00,,Authentication,Medium,After-hours login for user U0005,10.144.165.136,U0005,Login System,Login at 2025-05-07 04:46:04
+2025-05-07 04:46:04.593082+00:00,,Authentication,Medium,After-hours login for user U0005,10.144.165.136,U0005,Login System,Login at 2025-05-07 04:46:04
+2025-05-07 04:45:04.597885+00:00,,Authentication,Medium,After-hours login for user U0071,172.23.254.23,U0071,Login System,Login at 2025-05-07 04:45:04
+2025-05-07 04:45:04.597885+00:00,,Authentication,Medium,After-hours login for user U0071,172.23.254.23,U0071,Login System,Login at 2025-05-07 04:45:04
+2025-05-07 04:45:04.597885+00:00,,Authentication,Medium,After-hours login for user U0071,172.23.254.23,U0071,Login System,Login at 2025-05-07 04:45:04
+2025-05-07 04:45:04.597885+00:00,,Authentication,Medium,After-hours login for user U0071,172.23.254.23,U0071,Login System,Login at 2025-05-07 04:45:04
+2025-05-07 04:45:04.597885+00:00,,Authentication,Medium,After-hours login for user U0071,172.23.254.23,U0071,Login System,Login at 2025-05-07 04:45:04
+2025-05-07 04:45:04.597885+00:00,,Authentication,Medium,After-hours login for user U0071,172.23.254.23,U0071,Login System,Login at 2025-05-07 04:45:04
+2025-05-07 04:45:04.597885+00:00,,Authentication,Medium,After-hours login for user U0071,172.23.254.23,U0071,Login System,Login at 2025-05-07 04:45:04
+2025-05-07 04:45:04.597885+00:00,,Authentication,Medium,After-hours login for user U0071,172.23.254.23,U0071,Login System,Login at 2025-05-07 04:45:04
+2025-05-07 04:45:04.597885+00:00,,Authentication,Medium,After-hours login for user U0071,172.23.254.23,U0071,Login System,Login at 2025-05-07 04:45:04
+2025-05-07 04:45:04.597885+00:00,,Authentication,Medium,After-hours login for user U0071,172.23.254.23,U0071,Login System,Login at 2025-05-07 04:45:04
+2025-05-07 04:43:04.607476+00:00,,Authentication,Medium,After-hours login for user U0063,10.73.93.98,U0063,Login System,Login at 2025-05-07 04:43:04
+2025-05-07 04:43:04.607476+00:00,,Authentication,Medium,After-hours login for user U0063,10.73.93.98,U0063,Login System,Login at 2025-05-07 04:43:04
+2025-05-07 04:43:04.607476+00:00,,Authentication,Medium,After-hours login for user U0063,10.73.93.98,U0063,Login System,Login at 2025-05-07 04:43:04
+2025-05-07 04:43:04.607476+00:00,,Authentication,Medium,After-hours login for user U0063,10.73.93.98,U0063,Login System,Login at 2025-05-07 04:43:04
+2025-05-07 04:43:04.607476+00:00,,Authentication,Medium,After-hours login for user U0063,10.73.93.98,U0063,Login System,Login at 2025-05-07 04:43:04
+2025-05-07 04:43:04.607476+00:00,,Authentication,Medium,After-hours login for user U0063,10.73.93.98,U0063,Login System,Login at 2025-05-07 04:43:04
+2025-05-07 04:43:04.607476+00:00,,Authentication,Medium,After-hours login for user U0063,10.73.93.98,U0063,Login System,Login at 2025-05-07 04:43:04
+2025-05-07 04:43:04.607476+00:00,,Authentication,Medium,After-hours login for user U0063,10.73.93.98,U0063,Login System,Login at 2025-05-07 04:43:04
+2025-05-07 04:43:04.607476+00:00,,Authentication,Medium,After-hours login for user U0063,10.73.93.98,U0063,Login System,Login at 2025-05-07 04:43:04
+2025-05-07 04:43:04.607476+00:00,,Authentication,Medium,After-hours login for user U0063,10.73.93.98,U0063,Login System,Login at 2025-05-07 04:43:04
+2025-05-07 04:42:04.598277+00:00,,Authentication,Medium,After-hours login for user U0069,172.26.117.156,U0069,Login System,Login at 2025-05-07 04:42:04
+2025-05-07 04:42:04.598277+00:00,,Authentication,Medium,After-hours login for user U0069,172.26.117.156,U0069,Login System,Login at 2025-05-07 04:42:04
+2025-05-07 04:42:04.598277+00:00,,Authentication,Medium,After-hours login for user U0069,172.26.117.156,U0069,Login System,Login at 2025-05-07 04:42:04
+2025-05-07 04:42:04.598277+00:00,,Authentication,Medium,After-hours login for user U0069,172.26.117.156,U0069,Login System,Login at 2025-05-07 04:42:04
+2025-05-07 04:42:04.598277+00:00,,Authentication,Medium,After-hours login for user U0069,172.26.117.156,U0069,Login System,Login at 2025-05-07 04:42:04
+2025-05-07 04:42:04.598277+00:00,,Authentication,Medium,After-hours login for user U0069,172.26.117.156,U0069,Login System,Login at 2025-05-07 04:42:04
+2025-05-07 04:42:04.598277+00:00,,Authentication,Medium,After-hours login for user U0069,172.26.117.156,U0069,Login System,Login at 2025-05-07 04:42:04
+2025-05-07 04:42:04.598277+00:00,,Authentication,Medium,After-hours login for user U0069,172.26.117.156,U0069,Login System,Login at 2025-05-07 04:42:04
+2025-05-07 04:42:04.598277+00:00,,Authentication,Medium,After-hours login for user U0069,172.26.117.156,U0069,Login System,Login at 2025-05-07 04:42:04
+2025-05-07 04:42:04.598277+00:00,,Authentication,Medium,After-hours login for user U0069,172.26.117.156,U0069,Login System,Login at 2025-05-07 04:42:04
+2025-05-07 04:32:04.589896+00:00,,Authentication,Medium,After-hours login for user U0045,192.168.196.210,U0045,Login System,Login at 2025-05-07 04:32:04
+2025-05-07 04:32:04.589896+00:00,,Authentication,Medium,After-hours login for user U0045,192.168.196.210,U0045,Login System,Login at 2025-05-07 04:32:04
+2025-05-07 04:32:04.589896+00:00,,Authentication,Medium,After-hours login for user U0045,192.168.196.210,U0045,Login System,Login at 2025-05-07 04:32:04
+2025-05-07 04:32:04.589896+00:00,,Authentication,Medium,After-hours login for user U0045,192.168.196.210,U0045,Login System,Login at 2025-05-07 04:32:04
+2025-05-07 04:32:04.589896+00:00,,Authentication,Medium,After-hours login for user U0045,192.168.196.210,U0045,Login System,Login at 2025-05-07 04:32:04
+2025-05-07 04:32:04.589896+00:00,,Authentication,Medium,After-hours login for user U0045,192.168.196.210,U0045,Login System,Login at 2025-05-07 04:32:04
+2025-05-07 04:32:04.589896+00:00,,Authentication,Medium,After-hours login for user U0045,192.168.196.210,U0045,Login System,Login at 2025-05-07 04:32:04
+2025-05-07 04:32:04.589896+00:00,,Authentication,Medium,After-hours login for user U0045,192.168.196.210,U0045,Login System,Login at 2025-05-07 04:32:04
+2025-05-07 04:32:04.589896+00:00,,Authentication,Medium,After-hours login for user U0045,192.168.196.210,U0045,Login System,Login at 2025-05-07 04:32:04
+2025-05-07 04:32:04.589896+00:00,,Authentication,Medium,After-hours login for user U0045,192.168.196.210,U0045,Login System,Login at 2025-05-07 04:32:04
+2025-05-07 04:29:04.595683+00:00,,Authentication,Medium,After-hours login for user U0093,192.168.233.171,U0093,Login System,Login at 2025-05-07 04:29:04
+2025-05-07 04:29:04.595683+00:00,,Authentication,Medium,After-hours login for user U0093,192.168.233.171,U0093,Login System,Login at 2025-05-07 04:29:04
+2025-05-07 04:29:04.595683+00:00,,Authentication,Medium,After-hours login for user U0093,192.168.233.171,U0093,Login System,Login at 2025-05-07 04:29:04
+2025-05-07 04:29:04.595683+00:00,,Authentication,Medium,After-hours login for user U0093,192.168.233.171,U0093,Login System,Login at 2025-05-07 04:29:04
+2025-05-07 04:29:04.595683+00:00,,Authentication,Medium,After-hours login for user U0093,192.168.233.171,U0093,Login System,Login at 2025-05-07 04:29:04
+2025-05-07 04:29:04.595683+00:00,,Authentication,Medium,After-hours login for user U0093,192.168.233.171,U0093,Login System,Login at 2025-05-07 04:29:04
+2025-05-07 04:29:04.595683+00:00,,Authentication,Medium,After-hours login for user U0093,192.168.233.171,U0093,Login System,Login at 2025-05-07 04:29:04
+2025-05-07 04:29:04.595683+00:00,,Authentication,Medium,After-hours login for user U0093,192.168.233.171,U0093,Login System,Login at 2025-05-07 04:29:04
+2025-05-07 04:29:04.595683+00:00,,Authentication,Medium,After-hours login for user U0093,192.168.233.171,U0093,Login System,Login at 2025-05-07 04:29:04
+2025-05-07 04:29:04.595683+00:00,,Authentication,Medium,After-hours login for user U0093,192.168.233.171,U0093,Login System,Login at 2025-05-07 04:29:04
+2025-05-07 04:18:04.600084+00:00,,Authentication,Medium,After-hours login for user U0093,192.168.146.31,U0093,Login System,Login at 2025-05-07 04:18:04
+2025-05-07 04:18:04.600084+00:00,,Authentication,Medium,After-hours login for user U0093,192.168.146.31,U0093,Login System,Login at 2025-05-07 04:18:04
+2025-05-07 04:18:04.600084+00:00,,Authentication,Medium,After-hours login for user U0093,192.168.146.31,U0093,Login System,Login at 2025-05-07 04:18:04
+2025-05-07 04:18:04.600084+00:00,,Authentication,Medium,After-hours login for user U0093,192.168.146.31,U0093,Login System,Login at 2025-05-07 04:18:04
+2025-05-07 04:18:04.600084+00:00,,Authentication,Medium,After-hours login for user U0093,192.168.146.31,U0093,Login System,Login at 2025-05-07 04:18:04
+2025-05-07 04:18:04.600084+00:00,,Authentication,Medium,After-hours login for user U0093,192.168.146.31,U0093,Login System,Login at 2025-05-07 04:18:04
+2025-05-07 04:18:04.600084+00:00,,Authentication,Medium,After-hours login for user U0093,192.168.146.31,U0093,Login System,Login at 2025-05-07 04:18:04

