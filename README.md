@@ -44,3 +44,7 @@ It emphasizes the proactive nature of detecting insider threats early by analyzi
 
 While currently implemented as a simulation, the framework paves the way for future deployment into real-time detection systems integrated within CI/CD pipelines or security orchestration platforms.
 
+# 1.5 Future Scope and Impact
+
+As insider threats continue to evolve within cloud-native and containerized infrastructures, this project lays foundational work for scalable, automated defense mechanisms. Future enhancements may include live integration with Kubernetes audit logs, RBAC policy analysis, and incorporation into SIEM/SOAR platforms for real-time response. By bridging the gap between observability and intelligent threat detection, this tool exemplifies how ML can strengthen zero-trust security in DevSecOps pipelines.
+
