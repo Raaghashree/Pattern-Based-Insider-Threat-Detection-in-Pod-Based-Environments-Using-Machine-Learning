@@ -499,3 +499,5 @@ timestamp,user_id,event_type,status,source_ip,user_agent,action,domain,error_mes
 2025-05-06T21:53:04.609036Z,U0071,password_change,success,192.168.213.70,Chrome/113.0,Password changed successfully,example.com,
 2025-05-07T00:33:04.609081Z,U0096,logout,success,10.166.117.82,Chrome/113.0,User logged out,example.com,
 2025-05-06T21:54:04.609124Z,U0098,logout,success,172.28.33.152,Mozilla/5.0,User logged out,internal.example.org,
+2025-05-06T11:32:04.597778Z,U0096,logout,success,10.141.205.150,Chrome/113.0,User logged out,corp.example.com,
+
