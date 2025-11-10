@@ -499,3 +499,4 @@ timestamp,source_ip,source_port,destination_ip,destination_port,protocol,flow_by
 2025-05-06T07:37:47Z,10.0.0.48,35487,10.0.0.253,443,TCP,4394,47,drop,1.9,Possible port scan
 2025-05-05T00:10:47Z,10.0.0.54,19164,10.0.0.44,21,TCP,8804,107,drop,1.98,Suspicious protocol usage
 2025-05-03T10:38:47Z,10.0.0.68,28434,10.0.0.86,22,TCP,5020,194,drop,1.35,Abnormal packet size
+2025-04-30T10:15:47Z,10.0.0.131,33649,10.0.0.47,443,TCP,4502,44,drop,1.65,Suspicious protocol usage
