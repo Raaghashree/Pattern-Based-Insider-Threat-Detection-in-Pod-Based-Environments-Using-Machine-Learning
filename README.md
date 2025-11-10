@@ -8,7 +8,7 @@ The core detection engine utilizes a combination of the following models and tec
 
 🔸 Tree-Based ML Models:
 
-- XGBoost: Detects complex anomaly patterns using gradient boosting.
+- XGBoost: Detects complex anomaly patterns using gradient boosting. 
 
 - Isolation Forest: Identifies outliers by isolating data points in a feature space.
 
@@ -30,7 +30,7 @@ A Streamlit-based dashboard has been implemented to visually demonstrate the wor
   - Allows the user to trigger the detection process manually.
 
   - Displays a results interface with:
-
+ 
   - Alert counts (total anomalies detected).
 
   - Affected user identifiers.
@@ -42,7 +42,7 @@ This tool is designed as a proof-of-concept to illustrate how pattern-based ML d
 
 It emphasizes the proactive nature of detecting insider threats early by analyzing system behavior patterns.
 
-While currently implemented as a simulation, the framework paves the way for future deployment into real-time detection systems integrated within CI/CD pipelines or security orchestration platforms.
+While currently implemented as a simulation, the framework paves the way for future deployment into real-time detection systems integrated within CI/CD pipelines or security orchestration platforms. 
 
 # 1.5 Future Scope and Impact
 
