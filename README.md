@@ -1,7 +1,7 @@
 # Pattern-Based-Insider-Threat-Detection-in-Pod-Based-Environments-Using-Machine-Learning
 
 # 1.1 Overview of the Proposed Tool
-The proposed insider threat detection tool leverages a hybrid approach combining Machine Learning (ML) and rule-based logic to identify suspicious activities within DevSecOps and pod-based environments. It is specifically designed to address the complexity of tracking and analyzing dynamic logs in microservice architectures, where traditional manual monitoring is ineffective.
+The proposed insider threat detection tool leverages a hybrid approach combining Machine Learning (ML) and rule-based logic to identify suspicious activities within DevSecOps and pod-based environments. It is specifically designed to address the complexity of tracking and analyzing dynamic logs in microservice architectures, where traditional manual monitoring is ineffective. 
 
 # 1.2 Detection Methodology
 The core detection engine utilizes a combination of the following models and techniques:
